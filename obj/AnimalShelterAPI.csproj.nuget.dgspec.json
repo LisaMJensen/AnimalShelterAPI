@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[0.56.0, )"
             },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.0.6, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[2.2.0, )"

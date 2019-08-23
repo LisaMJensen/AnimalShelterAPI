@@ -9,7 +9,7 @@ namespace AnimalShelterAPI.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder
-                .UseMySql(@"server=localhost;user id=root;password=epicodus;port=3306;database=wildlife_park;");
+                .UseMySql(@"server=localhost;user id=root;password=epicodus;port=3306;database=animal_shelter;");
 
         public AnimalShelterAPIContext(DbContextOptions options) : base(options)
         {
@@ -22,3 +22,4 @@ namespace AnimalShelterAPI.Models
 
     }
 }
+
