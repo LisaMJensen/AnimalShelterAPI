@@ -27,6 +27,24 @@ namespace AnimalShelterAPI.Controllers
             return _db.Animals.FirstOrDefault(x => x.AnimalId == id);
         }
 
+        // DELETE api/animals/1
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+            var animalToDelete = _db.Animals.FirstOrDefault(x => x.AnimalId == id);
+            _db.Animals.Remove(animalToDelete);
+            _db.SaveChanges();
+        }
+
+        // PUT api/animals/1
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] Animal animal)
+        {
+            animal.AnimalId = id;
+            _db.Entry(animal).State = EntityState.Modified;
+            _db.SaveChanges();
+        }
+
         // POST api/values
         [HttpPost]
         public void Post([FromBody] Animal animal)
