@@ -23,6 +23,8 @@ _This web api allows the user to make API calls with CRUD funtionality ._
 
 * _C#._
 * _.NET_
+* _MySQL_
+* _Postman_
 
 ## Support and contact details
 
