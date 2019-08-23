@@ -11,9 +11,10 @@ _This web api allows the user to make API calls with CRUD funtionality ._
 ## Setup/Installation Requirements
 
 * _Clone the following github repository to view the code https://github.com/LisaMJensen/AnimalShelterAPI  ._
+* _Run a migration using dotnet ef migrations add Initial, followed by dotnet ef database update ._
 * _Through your terminal, use dotnet build followed by dotnet run  ._
 * _Make calls through localhost:5000 in Postman ._
-
+* _To view swagger in your browser, use URL http://localhost:5000/swagger/index.html#/ ._
 
 ## Known Bugs
 * No known bugs at this time.
