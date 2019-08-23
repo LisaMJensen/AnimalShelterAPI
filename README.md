@@ -1,12 +1,12 @@
 # Animal Shelter WebAPI
 
-#### _A webAPI with CRUD functionality for tracking animals in an animal shelter  - August 2, 2019_
+#### _A webAPI with CRUD functionality - August 2, 2019_
 
 #### _By **Lisa Jensen**_
 
 ## Description
 
-_This web api allows the user to make API calls with CRUD funtionality ._
+_This web api allows the user to make API calls with CRUD funtionality to track animals in an animal shelter._
 
 ## Setup/Installation Requirements
 
@@ -14,7 +14,7 @@ _This web api allows the user to make API calls with CRUD funtionality ._
 * _Run a migration using dotnet ef migrations add Initial, followed by dotnet ef database update ._
 * _Through your terminal, use dotnet build followed by dotnet run  ._
 * _Make calls through localhost:5000 in Postman ._
-* _To view swagger in your browser, use URL http://localhost:5000/swagger/index.html#/ ._
+* _To view Swagger in your browser, use URL http://localhost:5000/swagger/index.html#/ ._
 
 ## Known Bugs
 * No known bugs at this time.
